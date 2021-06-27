@@ -14,8 +14,8 @@ To kickstart our cloud foundations training, we start with one of the most funda
 
 > If you are completely new to AWS or cloud computing, please start with the introductory resources first. You can find them on the main page.
 
-* **AWS SA Course:** Section 5: EC2 Fundamentals, all videos (approx 1-2h)
-* Other related stuff:
+* **Udemy Course:** Section 5: EC2 Fundamentals, all videos (approx 1-2h)
+* Optional stuff:
     * **Vim:** The hands-on will require you to use Vim, a native Linux text editor. [This lecture](https://missing.csail.mit.edu/2020/editors/) will be helpful in understanding how to use it.
     * **SSL:** [This article](https://www.cloudflare.com/learning/ssl/what-is-ssl/) explains why we create certificates to enable HTTPS connections to our Jupyter Notebook. [This one](https://sectigostore.com/page/what-is-a-self-signed-certificate/) explains why Chrome displays a warning even when you're using HTTPS.
 

@@ -10,7 +10,7 @@ Hi! This GitHub page will serve as the landing site for all the training-related
 
 ## Schedule
 
-We'll be updating this as we go along. Indicate your interest for the sessions [here](https://docs.google.com/spreadsheets/d/1WxwbrjraEDHkpbMir_O7vzbq_2NTrHCb3j1esdPmJwA/edit#gid=0)!
+Indicate your interest for the sessions [here](https://docs.google.com/spreadsheets/d/1WxwbrjraEDHkpbMir_O7vzbq_2NTrHCb3j1esdPmJwA/edit#gid=0)!
 
 | No. | Week | Topic | I/C |
 | --- | --- | --- | --- |
@@ -31,20 +31,23 @@ We'll be updating this as we go along. Indicate your interest for the sessions [
 
 If you are completely new to AWS or cloud computing, we highly recommend that you look through the following materials before we start our first session. This will give you a good high-level and conceptual overview of key cloud computing concepts and of AWS's most important products.
 
-* [AWS Cloud Practitioner Essentials](https://www.aws.training/Details/eLearning?id=60697)
-    * Useful and intuitive explanations for key AWS products and cloud computing concepts.
+* [AWS Cloud Practitioner Essentials](https://www.aws.training/Details/eLearning?id=60697): Useful and intuitive explanations for key AWS products and cloud computing concepts.
 
 ### Udemy Course
 
 For this training, we will primarily rely on Stephane Maarek's [Udemy course](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/) for the AWS Solutions Architect Associate certification. It covers all the key topics comprehensively, and provides hands-on videos for some AWS products as well. Before each session, we will ask you to watch specific videos from the course to get a good theoretical understanding before the hands-on session.
 
-This is available for **free** via CSC's Learn App!
+This is available for **free** via [CSC's Learn App](https://learn.gov.sg/)!
 
 ### Other Materials
 
 Here are some additional useful articles or links if you're interested in going deeper into specific topics.
 
 * [Missing Semester (MIT)](https://missing.csail.mit.edu/): Excellent lectures on mastering the Linux shell. Highly recommend the ones on the shell (week 1), the editor (week 3), and Git (week 6).
+
+## Setting Up
+
+To be added.
 
 ## FAQs
 

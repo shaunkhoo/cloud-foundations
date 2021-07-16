@@ -21,6 +21,8 @@ To kickstart our cloud foundations training, we start with one of the most funda
 
 ## Hands-on Session
 
+> Find the slides for the hands-on session [here](https://docs.google.com/presentation/d/14p-YBrq1K0VsSFnUuCyTw7DGQwBY2r5Dt5Ps8t2IsaY/edit#slide=id.p)
+
 For this hands-on session, we will be mainly following [Chris Albon's walkthrough](https://chrisalbon.com/aws/basics/run_project_jupyter_on_amazon_ec2/) on running Jupyter Notebook on EC2. We have added on a few other steps to cover some finer points about EC2 as well.
 
 **Follow these steps for the hands-on session:**

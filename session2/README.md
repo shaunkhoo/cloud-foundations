@@ -5,11 +5,6 @@
 Now that you know how to provision an EC2 instance, it's time to understand the various storage options accessible from your instance — and any other AWS services.
 
 ## What you will learn
-
-* Swap EBS between EC2 instances
-  * Create an EC2 instance following the procedure covered in session 1
-  * Create an EBS snapshot
-  * Access the EBS from a new EC2 instance
 * Set up an S3 bucket
 * Configure the S3 bucket correctly for secured access
 * Set up a static website with S3
@@ -19,7 +14,7 @@ Now that you know how to provision an EC2 instance, it's time to understand the 
 
 > If you are completely new to AWS or cloud computing, please start with the introductory resources first. You can find them on the main page.
 
-* **Udemy Course:** Section 7: EC2 Instance Storage, all videos (approx 1h) and Section 12: Amazon S3 Introduction, all videos (approx 1h)
+* **Udemy Course:**  Section 12: Amazon S3 Introduction, all videos (approx 1h), Section 7: EC2 Instance Storage, all videos (approx 1h) and optionally, Section 7: EC2 Instance Storage, all videos (approx 1h).
 
 <!-- ## Hands-on Session
 

@@ -38,5 +38,6 @@ You can access the [Udemy course](https://www.udemy.com/course/aws-certified-sol
 * Tear down all the resources correctly using the AWS Console
 
 **Why is this useful?**
-* Covers the basics of creating, accessing, securing and encrypting the various types of storage.
-* Having configured your storage, you can use it to store data just as you would on an on-prem server, or your local computer — but with finer control over access permissions, reliability, speed, and cost.
+* Learn how different AWS storage services differ, and when to use which service.
+* Covers the basics of creating, accessing, securing and encrypting S3 buckets.
+* Having configured your S3 buckets, you can use it to store data while exploiting features of the cloud, including high availability and durability at potentially infinite scale.

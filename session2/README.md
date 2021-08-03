@@ -5,13 +5,14 @@
 Now that you know how to provision an EC2 instance, it's time to understand the various storage options accessible from your instance — and any other AWS services.
 
 ## What you will learn
-* Set up an S3 bucket
-* Use versioning in the S3 bucket
-* Encrypt objects in the S3 bucket
-* Upload and download from S3 with Boto3
-* Configure the S3 bucket for public access
-* Set up a static website with S3
 
+* Choosing the right AWS storage service
+* Create S3 buckets
+* Upload, delete, and version objects in S3 buckets
+* Encrypt S3 bucket objects
+* Secure S3 buckets using ACLs and bucket policies
+* Create a static website hosted on S3
+* Grant cross-origin access to your S3 bucket
 
 ## Materials
 
@@ -26,15 +27,15 @@ You can access the [Udemy course](https://www.udemy.com/course/aws-certified-sol
 
 > Find the slides for the hands-on session [here](https://docs.google.com/presentation/d/19suCETn2IbpwLgZHh75bBzp56IqKCdElGk1vPZAdmr4/edit?usp=sharing)
 
-<!-- **Follow these steps for the hands-on session:**
+**Follow these steps for the hands-on session:**
 
-* Spin up an EC2 instance using the AWS Console
-* Expose your EC2 instance to the Internet, but only to your IP address
-* SSH (tunnel) into your EC2 instance remotely
-* Install Jupyter Notebook and configure it for remote access
-* Test your setup by running code on your Jupyter Notebook
-* Stop (not terminate) and restart your instance
-* Tear down all the resources correctly using the AWS Console -->
+* Set up an S3 bucket
+* Create and delete versions in the S3 bucket
+* Encrypt objects in the S3 bucket
+* Upload and download from S3 with Boto3
+* Configure the S3 bucket for public access
+* Set up a static website with S3
+* Tear down all the resources correctly using the AWS Console
 
 **Why is this useful?**
 * Covers the basics of creating, accessing, securing and encrypting the various types of storage.

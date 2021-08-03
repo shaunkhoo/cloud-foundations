@@ -6,7 +6,7 @@ Now that you know how to provision an EC2 instance, it's time to understand the 
 
 ## What you will learn
 
-* Choosing the right AWS storage service
+* Choose the right AWS storage service
 * Create S3 buckets
 * Upload, delete, and version objects in S3 buckets
 * Encrypt S3 bucket objects
@@ -38,6 +38,6 @@ You can access the [Udemy course](https://www.udemy.com/course/aws-certified-sol
 * Tear down all the resources correctly using the AWS Console
 
 **Why is this useful?**
-* Learn how different AWS storage services differ, and when to use which service.
+* Choose the right AWS storage services for a given use-case.
 * Covers the basics of creating, accessing, securing and encrypting S3 buckets.
-* Having configured your S3 buckets, you can use it to store data while exploiting features of the cloud, including high availability and durability at potentially infinite scale.
+* Having configured your S3 bucket, you can use it to store data while exploiting features of the cloud, including high availability and durability at potentially infinite scale.

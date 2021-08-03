@@ -6,23 +6,27 @@ Now that you know how to provision an EC2 instance, it's time to understand the 
 
 ## What you will learn
 * Set up an S3 bucket
-* Configure the S3 bucket correctly for secured access
+* Use versioning in the S3 bucket
+* Encrypt objects in the S3 bucket
+* Upload and download from S3 with Boto3
+* Configure the S3 bucket for public access
 * Set up a static website with S3
-* Encrypt your S3 bucket
+
 
 ## Materials
 
 > If you are completely new to AWS or cloud computing, please start with the introductory resources first. You can find them on the main page.
 
-* **Udemy Course:**  Section 12: Amazon S3 Introduction, all videos (approx 1h), and optionally, Section 7: EC2 Instance Storage, all videos (approx 1h). You can access the [Udemy course](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/) through [CSC's Learn App](https://learn.gov.sg/).
+* **Udemy Course:**  Section 12: Amazon S3 Introduction, all videos (approx 1h).
+* **Udemy Course (optional):** Section 7: EC2 Instance Storage, all videos (approx 1h).
 
-<!-- ## Hands-on Session
+You can access the [Udemy course](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/) through [CSC's Learn App](https://learn.gov.sg/).
 
-> Find the slides for the hands-on session [here](#)
+## Hands-on Session
 
-For this hands-on session, we will be mainly following [Chris Albon's walkthrough](https://chrisalbon.com/aws/basics/run_project_jupyter_on_amazon_ec2/) on running Jupyter Notebook on EC2. We have added on a few other steps to cover some finer points about EC2 as well.
+> Find the slides for the hands-on session [here](https://docs.google.com/presentation/d/19suCETn2IbpwLgZHh75bBzp56IqKCdElGk1vPZAdmr4/edit?usp=sharing)
 
-**Follow these steps for the hands-on session:**
+<!-- **Follow these steps for the hands-on session:**
 
 * Spin up an EC2 instance using the AWS Console
 * Expose your EC2 instance to the Internet, but only to your IP address
@@ -30,8 +34,8 @@ For this hands-on session, we will be mainly following [Chris Albon's walkthroug
 * Install Jupyter Notebook and configure it for remote access
 * Test your setup by running code on your Jupyter Notebook
 * Stop (not terminate) and restart your instance
-* Tear down all the resources correctly using the AWS Console
+* Tear down all the resources correctly using the AWS Console -->
 
 **Why is this useful?**
 * Covers the basics of creating, accessing, securing and encrypting the various types of storage.
-* Having configured your storage, you can use it to store data just as you would on an on-prem server, or your local computer — but with finer control over access permissions, reliability, speed, and cost. -->
+* Having configured your storage, you can use it to store data just as you would on an on-prem server, or your local computer — but with finer control over access permissions, reliability, speed, and cost.

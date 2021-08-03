@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 <style type='text/css'>
-  #frame {padding: 15% 15%}
+  #frame {padding: 10% 15%}
 </style>
 
 <html lang="en">
@@ -23,36 +23,25 @@
     <h2 class='text-muted'>How to fill a bucket</h2>
     <pre>
       <code>
-        fill_bucket: bool,
-              callback_event_queue_size: int,
-          ) -> None:
-              """Run the callback in the specified event queue.
+        def fill_bucket():
+          bucket_list = []
+          key_list = []
 
-              Args:
-                  bucket: The event queue bucket.
-                  callback: The callback to run.
-                  callback_queue: The queue to run the callback in.
-                  callback_event_queue_size: The number of events in the callback_queue.
-              """
-              if callback_event_queue_size &lt;= 0:
-                  raise ValueError("Cannot use a callback with an empty queue.")
+          bucket_list.append(
+              Bucket([("a", 1), ("b", 2), ("c", 3), ("d", 4)],
+                    ["a", "b", "c", "d"],
+                    ["1", "2", "3", "4"]))
       </code>
     </pre>
     <h2 class='text-muted'>How to empty a bucket</h2>
     <pre>
       <code>
-        empty_bucket: BUCKET_NAME
-            :-
-            :bucket_name: "my-bucket"
-            :-
-            :generator_type: "MyGenerator"
-            :-
-            :generation_settings:
-                :content_encoding: "gzip"
-                :content_type: "application/octet-stream"
-                :content_disposition: "attachment"
-                :cloud_storage_enabled: "false"
-                :from_s3: true
+        def empty_bucket():
+          """Empty the bucket."""
+          if not self.bucket:
+              return
+          self.bucket.clear()
+          self.bucket.sync()
       </code>
     </pre>
     <p>
